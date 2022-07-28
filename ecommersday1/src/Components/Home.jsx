@@ -3,42 +3,14 @@ import { useSelector } from 'react-redux'
 import axios from "axios"
 import ShowData from "./Showdata"
 import { Button } from '@chakra-ui/react'
+import { useFetchProducts } from '../Hooks/fetchproducts'
  const Home = () => {
-
-  const [products,setProducts]=React.useState([])
-
-    
-  React.useEffect(() => {
-
-    axios({
-      method:"get",
-      url:"http://localhost:8000/products",
-     
-    }).then(res=>setProducts(res.data))
-    .catch(err=>{
-     
-    })
-    
-  }, []);
-
- 
+  const{loading,error,data}=useFetchProducts("http://localhost:8000/products")
 
   return (
-    <div>
-      <h1>Home</h1>
-      <div>{products?.map((item) => (
-                <div>
-                  <img src={item.imageBase}></img>
-                 <div style={{display:"flex"}}><p> {item.price}</p></div> 
-                 <div style={{display:"flex"}}><p>{item.rating}</p></div>
-                 <div style={{display:"flex"}}><p >{item.color}</p></div>
-                 <div style={{display:"flex"}}><p>{item.hex}</p></div>
-                 </div>
-             ))}
-           
-            </div>
-
-    </div>
+    loading? <h1>......Loading</h1>
+     : error ?<h1>Something Went Wrong</h1>
+     :data.map(item=> <div key={item.id}>{item.title}</div>)
   )
 }
 export default Home;
