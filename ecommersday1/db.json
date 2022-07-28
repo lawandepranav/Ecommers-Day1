@@ -1,0 +1,257 @@
+{
+  "products": [
+      {
+          "id": 1,
+          "title": "Chilli Paste, Sambal Oelek",
+          "color": "Blue",
+          "price": 2133,
+          "description": "nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla",
+          "rating": 2.0,
+          "category": "grocery",
+          "hex": "#12b8d9",
+          "imageBase": ""
+      },
+      {
+          "id": 2,
+          "title": "Flour - Teff",
+          "color": "Mauv",
+          "price": 3659,
+          "description": "elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu",
+          "rating": 2.0,
+          "category": "grocery",
+          "hex": "#177e20",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 3,
+          "title": "Bread - Pumpernickel",
+          "color": "Khaki",
+          "price": 2653,
+          "description": "mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis",
+          "rating": 4.8,
+          "category": "grocery",
+          "hex": "#2b1669",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 4,
+          "title": "Basil - Pesto Sauce",
+          "color": "Red",
+          "price": 928,
+          "description": "elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque",
+          "rating": 2.6,
+          "category": "grocery",
+          "hex": "#b157ca",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 5,
+          "title": "Sweet Pea Sprouts",
+          "color": "Blue",
+          "price": 45,
+          "description": "ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo",
+          "rating": 2.6,
+          "category": "grocery",
+          "hex": "#ff94c4",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 6,
+          "title": "Beef - Roasted, Cooked",
+          "color": "Blue",
+          "price": 662,
+          "description": "enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis",
+          "rating": 1.3,
+          "category": "grocery",
+          "hex": "#f5ecb0",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 7,
+          "title": "Tandoori Curry Paste",
+          "color": "Puce",
+          "price": 1602,
+          "description": "iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec",
+          "rating": 4.0,
+          "category": "grocery",
+          "hex": "#e1944a",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 8,
+          "title": "Table Cloth 81x81 White",
+          "color": "Khaki",
+          "price": 3287,
+          "description": "ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna",
+          "rating": 4.6,
+          "category": "grocery",
+          "hex": "#4038e1",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 9,
+          "title": "Eggs - Extra Large",
+          "color": "Maroon",
+          "price": 1871,
+          "description": "massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis",
+          "rating": 4.0,
+          "category": "grocery",
+          "hex": "#09a2a4",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 10,
+          "title": "Pork - Tenderloin, Frozen",
+          "color": "Fuscia",
+          "price": 4751,
+          "description": "id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi",
+          "rating": 3.4,
+          "category": "grocery",
+          "hex": "#7c4e4c",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 11,
+          "title": "Cheese - Brick With Pepper",
+          "color": "Maroon",
+          "price": 3166,
+          "description": "vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut",
+          "rating": 4.0,
+          "category": "grocery",
+          "hex": "#b9f1db",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 12,
+          "title": "Longos - Chicken Caeser Salad",
+          "color": "Red",
+          "price": 842,
+          "description": "aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna",
+          "rating": 3.4,
+          "category": "grocery",
+          "hex": "#50d84d",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 13,
+          "title": "Wine - Penfolds Koonuga Hill",
+          "color": "Orange",
+          "price": 1293,
+          "description": "nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede",
+          "rating": 2.8,
+          "category": "grocery",
+          "hex": "#5dc1d8",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 14,
+          "title": "Turkey Leg With Drum And Thigh",
+          "color": "Crimson",
+          "price": 420,
+          "description": "quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel",
+          "rating": 2.8,
+          "category": "grocery",
+          "hex": "#86e11b",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 15,
+          "title": "Meldea Green Tea Liquor",
+          "color": "Fuscia",
+          "price": 3591,
+          "description": "vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa",
+          "rating": 4.5,
+          "category": "grocery",
+          "hex": "#32110b",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 16,
+          "title": "Phyllo Dough",
+          "color": "Puce",
+          "price": 4619,
+          "description": "morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis",
+          "rating": 5.0,
+          "category": "grocery",
+          "hex": "#338968",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 17,
+          "title": "The Pop Shoppe - Root Beer",
+          "color": "Orange",
+          "price": 933,
+          "description": "faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non",
+          "rating": 1.3,
+          "category": "grocery",
+          "hex": "#96d3d2",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 18,
+          "title": "Mortadella",
+          "color": "Fuscia",
+          "price": 2266,
+          "description": "quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum",
+          "rating": 1.3,
+          "category": "grocery",
+          "hex": "#a3f7f9",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 19,
+          "title": "Cheese - Manchego, Spanish",
+          "color": "Indigo",
+          "price": 3683,
+          "description": "orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula",
+          "rating": 4.1,
+          "category": "grocery",
+          "hex": "#8e88e8",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 20,
+          "title": "Mustard - Dijon",
+          "color": "Crimson",
+          "price": 4185,
+          "description": "diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed",
+          "rating": 4.0,
+          "category": "grocery",
+          "hex": "#de9f07",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 21,
+          "title": "French Pastries",
+          "color": "Orange",
+          "price": 4055,
+          "description": "mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet",
+          "rating": 1.7,
+          "category": "grocery",
+          "hex": "#6b87f2",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 22,
+          "title": "Juice - V8 Splash",
+          "color": "Orange",
+          "price": 4826,
+          "description": "porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam",
+          "rating": 2.8,
+          "category": "grocery",
+          "hex": "#9b7bb7",
+          "imageBase": "https://via.placeholder.com/500"
+      },
+      {
+          "id": 23,
+          "title": "Peas - Frozen",
+          "color": "Purple",
+          "price": 868,
+          "description": "lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque",
+          "rating": 4.9,
+          "category": "grocery",
+          "hex": "#06934e",
+          "imageBase": "https://via.placeholder.com/500"
+      }
+    ]
+}
