@@ -1,8 +1,6 @@
 import React from "react"
 import axios from "axios"
 
-
-
 export const useFetchProducts = (url) => {
     const [products, setProducts] = React.useState({
         loading: false,
@@ -10,7 +8,7 @@ export const useFetchProducts = (url) => {
         data: []
     })
 
-const {loading, error,data}=products;
+    const { loading, error, data } = products;
     const getProducts = (url) => {
         setProducts(prev => ({
             ...prev,
@@ -35,5 +33,5 @@ const {loading, error,data}=products;
     React.useEffect(() => {
         getProducts(url)
     }, [])
-    return {loading, error,data}
+    return { loading, error, data }
 }
