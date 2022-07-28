@@ -4,7 +4,7 @@ import Pages from './Components/Pages/Pages';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar styled={{position:"fixed", overFlow:"hidden"}}/>
       <Pages />
     </div>
   );

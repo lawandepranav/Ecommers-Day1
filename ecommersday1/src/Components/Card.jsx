@@ -6,23 +6,20 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-const GroCard =(title, color, imageBase,price,hex)=> {
+const Mediacard =({title, color, imageBase})=> {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
         alt="green iguana"
         height="140"
-        image={`${imageBase}/${hex.slice(1)}`}
+        image={imageBase}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
          {color}-{title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
+        
       </CardContent>
       <CardActions>
         <Button size="small">Share</Button>
@@ -31,4 +28,4 @@ const GroCard =(title, color, imageBase,price,hex)=> {
     </Card>
   );
 }
-export default GroCard;
+export default Mediacard;

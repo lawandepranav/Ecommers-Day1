@@ -1,6 +1,6 @@
 import React from 'react'
 import { useFetchProducts } from '../Hooks/fetchproducts'
-import GroCard from "./GroCard"
+import Mediacard from "./Card"
 
  const Home = () => {
   const{loading,error,data}=useFetchProducts("http://localhost:8000/products")
@@ -11,7 +11,7 @@ import GroCard from "./GroCard"
   return (
      loading? <h1>......Loading</h1>
      : error ?<h1>Something Went Wrong</h1>
-     :data.map(item=> <GroCard key={item.id} {...item}/>)
+     :data.map(item=> <Mediacard key={item.id} {...item}/>)
   )
 }
 export default Home;

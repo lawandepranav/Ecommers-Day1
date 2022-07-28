@@ -39,6 +39,7 @@ export default function Navbar() {
 
     const list = () => (
       <Box
+      styled={{position:"fixed"}}
         sx={{ width: 250 }}
         role="presentation"
         onClick={()=>{toggleDrawer( false)}}
