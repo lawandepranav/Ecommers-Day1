@@ -121,7 +121,7 @@ export default function Navbar() {
             toggleDrawer(false);
           }}
         >
-          {list()}
+          {list('left')}
         </Drawer>
         <Toolbar>
           <IconButton
